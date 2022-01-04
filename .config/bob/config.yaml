@@ -1,0 +1,49 @@
+#awslogin:
+#  region: ap-southeast-2
+#default_client: versent
+
+default_client: flybuys
+awslogin:
+  user: tom.waller@versent.com.au
+  region: ap-southeast-2
+  profile: core-shared-eng-001-admin
+  credentials_file: '${{.cachedir}}/aws_profiles.conf'
+stax:
+  # user: ...
+  url: id.security.flybuys.au1.staxapp.cloud
+  credentials_file: '${{.cachedir}}/stax.json'
+awsurl:
+awsurl:
+  browser:
+    app: |
+      index="0x$(echo "$AWS_PROFILE" | md5sum | awk '{print $1}')"
+      color=( blue turquoise green yellow orange red pink purple )
+      color="${color[ $index % ${#color[@]} ]}"
+      url="$(jq -s -R -r @uri <<<"$1")"
+      (nohup /Applications/Firefox.app/Contents/MacOS/firefox "ext+container:name=${{_BOB_CLIENT}}-$AWS_PROFILE&color=$color&url=$url" &>/dev/null) &
+apigee:
+  # user: ...
+  mfa: true
+  credentials_file: '${{.cachedir}}/apigee.json'
+kubelogin:
+  kubeconfig_dir: '${{.cachedir}}/kubeconfig'
+ssh:
+  user: ec2-user
+  upload_key: yes
+  multiplex: yes
+  control_path: '${{.cachedir}}/ssh/%r@%h:%p'
+  control_persist: 4h
+tab_completion: yes
+cachedir: '${{XDG_RUNTIME_DIR}}/flybuys'
+browser:
+  app: python3 -mwebbrowser "$1"
+  # profile_dir: ...
+snowsql:
+  account: flybuys.ap-southeast-2
+  # user: ...
+  mfa: true
+  # enter your password+mfa less often,
+  # but has the side effect that you can only use one role at a time,
+  # even across different bob snowsql invocations
+  shared_session: yes
+

@@ -1,0 +1,7 @@
+awslogin:
+  region: ap-southeast-2
+
+stax:
+
+
+default_client: versent
