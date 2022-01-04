@@ -1,1 +1,5 @@
+echo "Download ssh.tar.gz.enc and place in /tmp/ssh.tar.gz.enc"
+
+mkdir ~/.ssh
+cd /
 openssl enc -aes-256-cbc -d -in /tmp/ssh.tar.gz.enc | tar xz
