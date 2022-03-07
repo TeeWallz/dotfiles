@@ -136,6 +136,7 @@ ex ()
   fi
 }
 alias config='/usr/bin/git --git-dir=/home/tom/.dotfiles/ --work-tree=/home/tom'
+export EDITOR=nano
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
@@ -144,3 +145,4 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export AWS_PROFILE="stax-stax-au1-versent"
+

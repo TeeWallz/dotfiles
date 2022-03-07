@@ -32,3 +32,4 @@ function sshtmp
  }
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export AWS_PROFILE="stax-stax-au1-versent"
+export EDITOR=nano
