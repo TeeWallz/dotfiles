@@ -28,3 +28,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
  }
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+alias config='/usr/bin/git --git-dir=/home/tom/.dotfiles/ --work-tree=/home/tom'
+
+export EDITOR=nano
+export AWS_PROFILE="stax-stax-au1-versent"
+
