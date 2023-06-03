@@ -2,6 +2,5 @@
 dkms
 zfs-dkms
 zfs-utils
-zfs-dkms
-spl-dkms
+endeavouros/zfs-dkms
 
