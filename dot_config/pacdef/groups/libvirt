@@ -1,0 +1,4 @@
+[arch]
+qemu-full
+libvirt
+virt-manager

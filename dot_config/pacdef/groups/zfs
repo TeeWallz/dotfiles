@@ -1,0 +1,5 @@
+[arch]
+dkms
+spl-dkms
+zfs-utils
+zfs-dkms
