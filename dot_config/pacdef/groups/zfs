@@ -1,5 +1,5 @@
 [arch]
 dkms
-spl-dkms
+endeavouros/zfs-dkms
 zfs-utils
 zfs-dkms
