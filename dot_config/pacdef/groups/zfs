@@ -3,3 +3,5 @@ dkms
 zfs-dkms
 zfs-utils
 zfs-dkms
+spl-dkms
+
