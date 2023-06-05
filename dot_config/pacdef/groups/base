@@ -197,6 +197,7 @@ xorg-xrandr
 xsettingsd
 xterm
 yay
+htop
 
 [rust]
 pacdef
