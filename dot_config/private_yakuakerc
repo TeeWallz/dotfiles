@@ -1,0 +1,7 @@
+[Appearance]
+Blur=true
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Dialogs]
+FirstRun=false
