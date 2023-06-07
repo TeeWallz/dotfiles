@@ -198,6 +198,7 @@ xsettingsd
 xterm
 yay
 htop
+yakuake
 
 [rust]
 pacdef
