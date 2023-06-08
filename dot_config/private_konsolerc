@@ -1,0 +1,30 @@
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1024x768 screen: Height=696
+1024x768 screen: Width=1002
+1024x768 screen: XPosition=0
+1024x768 screen: YPosition=29
+2 screens: Height=2087
+2 screens: Width=1920
+2 screens: XPosition=0
+2 screens: YPosition=30
+2560x1440 screen: Height=1368
+2560x1440 screen: Width=1920
+2560x1440 screen: XPosition=354
+2560x1440 screen: YPosition=286
+3840x2160 screen: Height=2087
+3840x2160 screen: Width=1920
+3840x2160 screen: XPosition=354
+3840x2160 screen: YPosition=286
+:0.0=:0.0
+DisplayPort-0=DisplayPort-0
+DisplayPort-0 HDMI-A-0=HDMI-A-0
+HDMI-A-0=HDMI-A-0
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABFQEAAAMAAAeAAAAH+QAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOj/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=
