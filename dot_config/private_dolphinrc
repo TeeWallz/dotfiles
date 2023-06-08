@@ -2,6 +2,10 @@
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [General]
+BrowseThroughArchives=true
+EditableUrl=true
+FilterBar=true
+ShowFullPath=true
 Version=202
 ViewPropsTimestamp=2023,5,27,23,7,51.684
 
@@ -12,3 +16,6 @@ Places Icons Static Size=22
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
