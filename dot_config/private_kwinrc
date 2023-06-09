@@ -10,6 +10,10 @@ Rows=1
 Active=true
 NightTemperature=2200
 
+[Plugins]
+desktopchangeosdEnabled=false
+wobblywindowsEnabled=true
+
 [Tiling]
 padding=4
 
