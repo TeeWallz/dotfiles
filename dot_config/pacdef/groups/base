@@ -202,7 +202,7 @@ yakuake
 joplin
 joplin-desktop
 zsh
-ohmyzsh
+oh-my-zsh-git
 
 [rust]
 pacdef
