@@ -206,6 +206,7 @@ oh-my-zsh-git
 fd
 zsh-theme-powerlevel10k-git
 ttf-meslo-nerd-font-powerlevel10k
+emacs-org-roam
 
 [rust]
 pacdef
