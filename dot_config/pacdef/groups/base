@@ -203,6 +203,7 @@ joplin
 joplin-desktop
 zsh
 oh-my-zsh-git
+fd
 
 [rust]
 pacdef
