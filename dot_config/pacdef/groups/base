@@ -201,6 +201,7 @@ htop
 yakuake
 joplin
 joplin-desktop
+zfs
 
 [rust]
 pacdef
