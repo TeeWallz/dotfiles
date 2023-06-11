@@ -10,6 +10,8 @@ zstyle :compinstall filename '/home/tom/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+zstyle ':completion:*' menu select
+
 
 # Load the 'init.sh'.
 source ~/zshrc/init.sh
