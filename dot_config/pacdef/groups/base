@@ -204,6 +204,7 @@ joplin-desktop
 zsh
 oh-my-zsh-git
 fd
+zsh-theme-powerlevel10k-git
 
 [rust]
 pacdef
