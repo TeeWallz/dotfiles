@@ -3,5 +3,11 @@ Blur=true
 TerminalHighlightOnManualActivation=true
 Translucency=true
 
+[Desktop Entry]
+DefaultProfile=oh-my-zsh.profile
+
 [Dialogs]
 FirstRun=false
+
+[Window]
+Height=73
