@@ -8,6 +8,7 @@ FilterBar=true
 ShowFullPath=true
 Version=202
 ViewPropsTimestamp=2023,5,27,23,7,51.684
+ViewMode=1
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
