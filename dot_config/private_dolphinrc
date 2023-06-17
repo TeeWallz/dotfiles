@@ -1,6 +1,11 @@
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
+[ExtractDialog]
+1280x720 screen: Height=480
+1280x720 screen: Width=887
+DirHistory[$e]=$HOME/.steam/root/compatibilitytools.d/
+
 [General]
 BrowseThroughArchives=true
 EditableUrl=true
@@ -10,9 +15,19 @@ Version=202
 ViewPropsTimestamp=2023,5,27,23,7,51.684
 ViewMode=1
 
+[IconsMode]
+PreviewSize=256
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/.steam/root/compatibilitytools.d/,file:$HOME/Downloads/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+2 screens: Height=616
+2 screens: Width=438
 
 [MainWindow]
 MenuBar=Disabled
