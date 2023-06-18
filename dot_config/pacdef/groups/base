@@ -209,6 +209,7 @@ ttf-meslo-nerd-font-powerlevel10k
 logseq-desktop-wayland-bin
 ttf-comic-mono-git
 minidlna
+git-remote-gcrypt
 
 [rust]
 pacdef
