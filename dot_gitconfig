@@ -3,3 +3,5 @@
 	email = thomas.r.waller@gmail.com
 [core]
 	editor = nano
+[init]
+	defaultBranch = main
