@@ -210,7 +210,5 @@ ttf-meslo-nerd-font-powerlevel10k
 logseq-desktop-wayland-bin
 ttf-comic-mono-git
 borg
+snapborg
 
-[rust]
-pacdef
-topgrade
