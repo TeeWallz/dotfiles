@@ -1,4 +1,7 @@
 [arch]
+gnome-keyring
+python-pip
+python-setuptools
 accountsservice
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -199,8 +202,6 @@ xterm
 yay
 htop
 yakuake
-joplin
-joplin-desktop
 zsh
 oh-my-zsh-git
 fd
@@ -208,6 +209,7 @@ zsh-theme-powerlevel10k-git
 ttf-meslo-nerd-font-powerlevel10k
 logseq-desktop-wayland-bin
 ttf-comic-mono-git
+borg
 
 [rust]
 pacdef
